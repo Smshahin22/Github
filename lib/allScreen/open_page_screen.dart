@@ -11,40 +11,45 @@ class _OpenPageScreenState extends State<OpenPageScreen> {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
+      //commit chk
     body: Center(
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          const Text(
-            "SociaLive",
-            style: TextStyle(
-              fontSize: 34,
-              fontWeight: FontWeight.bold
-            ),
-          ),
-         const SizedBox(height: 16),
-         SizedBox(
-           height: 40,
-           width: 320,
-           child: ElevatedButton(
-               onPressed: (){},
-               child: const Text(
-                 "Create Account",
-                 style: TextStyle(
-                   fontSize: 14,
-                   fontWeight: FontWeight.bold
-                 ),
-               )),
-         ),
+          Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              const Text(
+                "SociaLive",
+                style: TextStyle(
+                  fontSize: 34,
+                  fontWeight: FontWeight.bold
+                ),
+              ),
+             const SizedBox(height: 16),
+             SizedBox(
+               height: 50,
+               width: 320,
+               child: ElevatedButton(
+                   onPressed: (){},
+                   child: const Text(
+                     "Create Account",
+                     style: TextStyle(
+                       fontSize: 14,
+                       fontWeight: FontWeight.bold
+                     ),
+                   )),
+             ),
 
-          const SizedBox(height: 16),
+              const SizedBox(height: 16),
 
-          const Text(
-            "Log In",
-            style:TextStyle(
-                fontSize: 34,
-                fontWeight: FontWeight.bold
-            ),
+              const Text(
+                "Log In",
+                style:TextStyle(
+                    fontSize: 34,
+                    fontWeight: FontWeight.bold
+                ),
+              ),
+            ],
           ),
         ],
       ),
