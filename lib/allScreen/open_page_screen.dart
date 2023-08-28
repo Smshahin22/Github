@@ -11,7 +11,7 @@ class _OpenPageScreenState extends State<OpenPageScreen> {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
-      //commit chk
+      //project submit success
     body: Center(
       child: Column(
         children: [
